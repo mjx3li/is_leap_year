@@ -1,0 +1,14 @@
+@is_leap_year_HostAddress = http://localhost:5157
+
+GET {{is_leap_year_HostAddress}}/is_leap_year/1228
+Accept: application/json
+
+###
+
+POST {{is_leap_year_HostAddress}}/is_leap_year/1228
+Content-Type:application/json
+{}
+
+###
+
+GET {{is_leap_year_HostAddress}}/is_leap_year
